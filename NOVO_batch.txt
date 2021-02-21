@@ -1,0 +1,4 @@
+2021-01-27_Dheteracantha_corrected_seed
+/nesi/project/ga03048/weta/mtdna/2021-01-22_Circularized_assembly_1_Dheteracantha_Dfallai_ref_corrected.fasta
+/nesi/nobackup/ga03048/data/illumina/subsamp/subsamp_H07456_all_R1.fastq
+/nesi/nobackup/ga03048/data/illumina/subsamp/subsamp_H07456_all_R2.fastq
