@@ -1,4 +1,4 @@
-# Weta_mtDNA_assembly
+# Weta mitochondrial genome assembly
 
 ## Aim 
 To assemble a wētā mitochondrial genome from raw Illumina short-read paired end data.
