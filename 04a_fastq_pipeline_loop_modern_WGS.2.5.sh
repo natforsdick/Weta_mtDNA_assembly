@@ -159,7 +159,7 @@ echo "making plots and stats for $samp"
 
 #create coverage plot
 
-if [ -e /nesi/project/ga03048/scripts/fwdsophiaspipeline/make_coverage_plots2.0.R ]; then
+if [ -e ./05_make_coverage_plots2.0.R ]; then
 
 	echo "Creating coverage plot"
 
@@ -175,13 +175,13 @@ if [ -e /nesi/project/ga03048/scripts/fwdsophiaspipeline/make_coverage_plots2.0.
 
 		#run the Rscript to produce a plot
 
-		Rscript /nesi/project/ga03048/scripts/fwdsophiaspipeline/make_coverage_plots2.0.R $samp $mtchr
+		Rscript ./05_make_coverage_plots2.0.R $samp $mtchr
 
 	cd ..
 
 else
 
-echo "Cannot find make_coverage_plots.R: skipping coverage plot step"
+echo "Cannot find 05_make_coverage_plots.R: skipping coverage plot step"
 
 fi
 
